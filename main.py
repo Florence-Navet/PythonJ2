@@ -39,14 +39,21 @@ while i <= 10:
     i += 1
 
 #boucle 12 tours - 2
-# Initialisation du premier tour
-depart = 0
+# Boucle de 12 tours
+for tour in range(1, 13):
+    resultat = 3 * tour - 2
+    print(f"Tour {tour} : {resultat}")
+
+
+#Boucle de 12 tours avec numéro précédent +2
+# Initialisation de la variable precedent
+precedent = 0
 
 # Boucle de 12 tours
 for tour in range(1, 13):
-    depart += 2
-    print(f"Tour {tour} : {depart}")
-    
+    precedent += 2
+    print(f"Tour {tour} : {precedent}")
+   
 
 
 
