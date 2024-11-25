@@ -54,6 +54,32 @@ for tour in range(1, 13):
     precedent += 2
     print(f"Tour {tour} : {precedent}")
    
+#Afficher les nombres pairs et impairs de 1 à 30
+for i in range (1, 31):
+    if i % 2 == 0:
+        print(f"Ce nombre {i} est pair.")
+    else:
+        print(f"Ce nombre {i} est impair")    
+
+#Afficher deux listes nb pairs puis nb impairs sous formes tableeaux
+pairs = []
+impairs = []
+#remplir listes nb pairs et impairs
+for i in range(1, 31):
+    if i % 2 == 0:
+        pairs.append(i)
+    else:
+        impairs.append(i)
+#afficher les nb pairs
+print("Nombres pairs :") 
+for nombre in pairs:
+    print(f"Ce nombre {nombre} est pair.")
+#affichier les nb impairs
+print("Nombres impairs :")    
+for nombre in impairs:
+    print(f"Ce nombre {nombre} est impair.")  
+
+
 
 
 
